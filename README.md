@@ -7,6 +7,14 @@ A great place to fork from when starting something new in php.
 * Install Vagrant from https://www.vagrantup.com/downloads.html
 * From this directory, run: vagrant up
 
+## Composer for PHP
+* Install from https://getcomposer.org/download/
+* Then `php composer.phar install`
+
+## Update from Sample
+* Replace the Sample namespace in composer.json
+* Remove src/foo.php and add your class
+* Update public/index.php to use your code
+
 ## To Do
-* Sample src files, with composer declaration for psr4
 * Sample unit tests
