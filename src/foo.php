@@ -1,5 +1,5 @@
 <?php
-namespace Sample;
+namespace SquareServerlessQuickstart;
 
 class Foo {
 

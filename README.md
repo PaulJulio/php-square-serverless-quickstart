@@ -1,4 +1,4 @@
-# php-quickstart
+# php-square-serverless-quickstart
 A great place to fork from when starting something new in php.
 
 ## To install and use scotch/box with the inlcluded Vagrantfile
@@ -8,13 +8,6 @@ A great place to fork from when starting something new in php.
 * From this directory, run: vagrant up
 
 ## Composer for PHP
-* Install from https://getcomposer.org/download/
+* Will be installed for you if you navigate to 192.168.33.7
+* Or you may install from https://getcomposer.org/download/
 * Then `php composer.phar install`
-
-## Update from Sample
-* Replace the Sample namespace in composer.json
-* Remove src/foo.php and add your class
-* Update public/index.php to use your code
-
-## To Do
-* Sample unit tests
