@@ -4,4 +4,8 @@ if (!file_exists(__DIR__ . '/../vendor/')) {
     die();
 }
 require_once __DIR__ . '/../vendor/autoload.php';
-SquareServerlessQuickstart\Foo::output();
+$m = new Mustache_Engine();
+$values = [];
+$template = file_get_contents(__DIR__ . '/home.html');
+echo $m->render($template, $values);
+//SquareServerlessQuickstart\Foo::output();

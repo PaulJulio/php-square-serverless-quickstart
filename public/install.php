@@ -1,5 +1,4 @@
 <?php
-error_reporting(E_ALL | E_NOTICE | E_WARNING);
 echo "Checking for install directory... ";
 if (checkForInstallDir()) {
     echo "found<br>";
@@ -55,7 +54,6 @@ function afterInstallComposer() {
         unlink(__DIR__ . '/../install/composer-setup.php');
     }
     if (checkForComposer()) {
-        //echo 'Composer found, please <a href="/install.php"> refresh<br>';
         echo '</pre><br>Composer installed.<br>';
     } else {
         echo '</pre><br>Composer not found. Exiting';

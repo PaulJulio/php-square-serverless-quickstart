@@ -9,7 +9,13 @@
 	],
 	"require": {
 		"nategood/commando": "^0.2.9",
-		"league/climate": "^3.2"
+		"league/climate": "^3.2",
+		"gmo/credstash": "^1.0",
+		"square/connect": "^2.20180712",
+		"mustache/mustache": "^2.12",
+		"twbs/bootstrap": "^4.1",
+		"components/jquery": "^3.3",
+		"ralouphie/mimey": "^2.0"
 	},
 	"autoload": {
       "psr-4": { "SquareServerlessQuickstart\\": "src/" }
