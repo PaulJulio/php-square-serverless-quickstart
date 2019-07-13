@@ -22,11 +22,13 @@ if (checkForComposer()) {
     afterInstallComposer();
 }
 
-echo "Installing composer dependencies...<br><pre>";
+echo "Installing and updating composer dependencies...<br><pre>";
 $composer_dir = realpath(__DIR__ . '/../install/');
 putenv('COMPOSER_HOME=' . $composer_dir);
-$command = "php $composer_dir/composer.phar install --no-interaction 2>&1";
 chdir(__DIR__ . '/../');
+$command = "php $composer_dir/composer.phar install --no-interaction 2>&1";
+system($command);
+$command = "php $composer_dir/composer.phar update --no-interaction 2>&1";
 system($command);
 echo '</pre><br>Done<br><a href="/index.php">Back to home.</a>';
 

@@ -19,5 +19,11 @@
 	},
 	"autoload": {
       "psr-4": { "SquareServerlessQuickstart\\": "src/" }
-    }
+    },
+	"authors": [
+      {
+        "name": "PaulJulio",
+        "email": "paulhulett@gmail.com"
+      }
+    ]
 }
